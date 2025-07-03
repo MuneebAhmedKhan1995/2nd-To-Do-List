@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import TaskInput from './components/TaskInput';
 import TaskList from './components/TaskList';
-import { addTask, deleteTask, toggleComplete } from './logic/taskManager';
+import { addTask, deleteTask, toggleComplete } from './Logic/taskManager';
 
 function App() {
   const [tasks, setTasks] = useState([]);
